@@ -1,0 +1,58 @@
+{
+    "info": {
+        "title": "GTA V Radio",
+        "logo": "gta_v.png"
+    },
+    "common": {
+        "fileGroups": [
+            {
+                "tag": "adverts",
+                "files": [
+                    {
+                        "path": "common/adverts/mono_ad001_life_invader.m4a",
+                        "duration": 31.05,
+                        "audibleDuration": 30.462
+                    },
+                    {
+                        "path": "common/adverts/mono_ad002_righteous_slaughter_nuke.m4a",
+                        "duration": 27.93,
+                        "audibleDuration": 27.177
+                    },
+                    {
+                        "path": "common/adverts/mono_ad003_righteous_slaughter_russian.m4a",
+                        "duration": 55.09,
+                        "audibleDuration": 54.48
+                    }
+                ]
+            },
+            {
+                "tag": "news",
+                "files": [
+                    {
+                        "path": "common/news/mono_news_01.m4a",
+                        "duration": 150.21,
+                        "audibleDuration": 148.41
+                    },
+                    {
+                        "path": "common/news/mono_news_02.m4a",
+                        "duration": 151.38,
+                        "audibleDuration": 149.84
+                    },
+                    {
+                        "path": "common/news/mono_news_03.m4a",
+                        "duration": 104.79,
+                        "audibleDuration": 103.27
+                    }
+                ]
+            }
+        ]
+    },
+    "stations": [
+        {
+            "path": "radio_01_class_rock"
+        },
+        {
+            "path": "radio_05_talk_01"
+        }
+    ]
+}

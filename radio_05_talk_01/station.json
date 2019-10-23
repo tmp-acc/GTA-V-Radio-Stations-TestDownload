@@ -1,0 +1,103 @@
+{
+  "tag": "radio_05_talk_01",
+  "info": {
+    "title": "WCTR: West Coast Talk Radio",
+    "genre": "Public Talk Radio",
+    "logo": "radio_05_talk_01.png"
+  },
+  "fileGroups": [
+    {
+      "tag": "track",
+      "files": [
+        {
+          "tag": "p1",
+          "path": "mono_chakra_attack_part_1.m4a",
+          "duration": 1818.17,
+          "audibleDuration": 1817.7
+        },
+        {
+          "tag": "p2",
+          "path": "mono_chakra_attack_part_2.m4a",
+          "duration": 1326.78
+        },
+      ]
+    },
+    {
+      "tag": "id",
+      "files": [
+        {
+          "path": "id/id_01.m4a",
+          "duration": 7.4,
+          "audibleDuration": 6.4626
+        },
+        {
+          "path": "id/id_02.m4a",
+          "duration": 6.42,
+          "audibleDuration": 5.9
+        },
+        {
+          "path": "id/id_03.m4a",
+          "duration": 6.19,
+          "audibleDuration": 5.4813
+        }
+      ]
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "id1"
+    },
+    "fragments": [
+      {
+        "tag": "id1",
+        "src": {
+          "type": "group",
+          "groupTag": "id"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "part1"
+          }
+        ]
+      },
+      {
+        "tag": "part1",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p1"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "id2"
+          }
+        ]
+      },
+      {
+        "tag": "id2",
+        "src": {
+          "type": "group",
+          "groupTag": "id"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "part2"
+          }
+        ]
+      },
+      {
+        "tag": "part2",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p2"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "id1"
+          }
+        ]
+      }
+    ]
+  }
+}
