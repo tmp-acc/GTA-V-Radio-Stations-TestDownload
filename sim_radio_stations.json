@@ -1,0 +1,578 @@
+{
+  "info": {
+    "title": "GTA V Radio",
+    "logo": "gta_v.png"
+  },
+  "common": {
+    "fileGroups": [
+      {
+        "tag": "adverts",
+        "files": [
+          {
+            "path": "common/adverts/mono_ad001_life_invader.m4a",
+            "duration": 31.05,
+            "audibleDuration": 30.462
+          },
+          {
+            "path": "common/adverts/mono_ad002_righteous_slaughter_nuke.m4a",
+            "duration": 27.93,
+            "audibleDuration": 27.177
+          },
+          {
+            "path": "common/adverts/mono_ad003_righteous_slaughter_russian.m4a",
+            "duration": 55.09,
+            "audibleDuration": 54.48
+          }
+        ]
+      },
+      {
+        "tag": "news",
+        "files": [
+          {
+            "path": "common/news/mono_news_01.m4a",
+            "duration": 150.21,
+            "audibleDuration": 148.41
+          },
+          {
+            "path": "common/news/mono_news_02.m4a",
+            "duration": 151.38,
+            "audibleDuration": 149.84
+          },
+          {
+            "path": "common/news/mono_news_03.m4a",
+            "duration": 104.79,
+            "audibleDuration": 103.27
+          }
+        ]
+      }
+    ]
+  },
+  "stations": [
+    {
+      "tag": "radio_01_class_rock",
+      "info": {
+        "title": "Los Santos Rock Radio",
+        "genre": "Classic rock, soft rock, pop rock",
+        "logo": "radio_01_class_rock.png",
+        "dj": "Kenny Loggins"
+      },
+      "fileGroups": [
+        {
+          "tag": "track",
+          "files": [
+            {
+              "path": "all_the_things_she_said.m4a",
+              "duration": 249.54,
+              "attaches": {
+                "files": [
+                  {
+                    "path": "intro/all_the_things_she_said_01.m4a",
+                    "duration": 3.94,
+                    "audibleDuration": 3.5613
+                  },
+                  {
+                    "path": "intro/all_the_things_she_said_02.m4a",
+                    "duration": 5.11
+                  }
+                ]
+              }
+            },
+            {
+              "path": "baker_street.m4a",
+              "duration": 329.17,
+              "attaches": {
+                "files": [
+                  {
+                    "path": "intro/baker_street_01.m4a",
+                    "duration": 3.63
+                  },
+                  {
+                    "path": "intro/baker_street_02.m4a",
+                    "duration": 6.85
+                  }
+                ]
+              }
+            },
+            {
+              "path": "big_log.m4a",
+              "duration": 211.03,
+              "audibleDuration": 210.2,
+              "attaches": {
+                "files": [
+                  {
+                    "path": "intro/big_log_01.m4a",
+                    "duration": 2.58
+                  },
+                  {
+                    "path": "intro/big_log_02.m4a",
+                    "duration": 6.02
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "tag": "general",
+          "files": [
+            {
+              "path": "general/general_01.m4a",
+              "duration": 4.08,
+              "audibleDuration": 3.7533
+            },
+            {
+              "path": "general/general_02.m4a",
+              "duration": 5.95
+            },
+            {
+              "path": "general/general_03.m4a",
+              "duration": 3.37
+            }
+          ]
+        },
+        {
+          "tag": "id",
+          "files": [
+            {
+              "path": "id/id_01.m4a",
+              "duration": 7.27,
+              "audibleDuration": 6.67
+            },
+            {
+              "path": "id/id_02.m4a",
+              "duration": 5.57,
+              "audibleDuration": 5.1826
+            },
+            {
+              "path": "id/id_03.m4a",
+              "duration": 6.27,
+              "audibleDuration": 5.2
+            }
+          ]
+        },
+        {
+          "tag": "mono_solo",
+          "files": [
+            {
+              "path": "mono_solo/mono_solo_01.m4a",
+              "duration": 18.57,
+              "audibleDuration": 17.278
+            },
+            {
+              "path": "mono_solo/mono_solo_02.m4a",
+              "duration": 24.37,
+              "audibleDuration": 23.209
+            },
+            {
+              "path": "mono_solo/mono_solo_03.m4a",
+              "duration": 26.0,
+              "audibleDuration": 24.617
+            }
+          ]
+        },
+        {
+          "tag": "time_evening",
+          "files": [
+            {
+              "path": "time_evening/evening_01.m4a",
+              "duration": 3.97,
+              "audibleDuration": 3.66
+            },
+            {
+              "path": "time_evening/evening_02.m4a",
+              "duration": 2.31,
+              "audibleDuration": 1.7906
+            },
+            {
+              "path": "time_evening/evening_03.m4a",
+              "duration": 3.19
+            }
+          ]
+        },
+        {
+          "tag": "time_morning",
+          "files": [
+            {
+              "path": "time_morning/morning_01.m4a",
+              "duration": 5.17
+            },
+            {
+              "path": "time_morning/morning_02.m4a",
+              "duration": 4.48
+            },
+            {
+              "path": "time_morning/morning_03.m4a",
+              "duration": 3.79
+            }
+          ]
+        },
+        {
+          "tag": "to_adverts",
+          "files": [
+            {
+              "path": "to_ad/to_ad_01.m4a",
+              "duration": 3.49,
+              "audibleDuration": 3.1346
+            },
+            {
+              "path": "to_ad/to_ad_02.m4a",
+              "duration": 2.1
+            },
+            {
+              "path": "to_ad/to_ad_03.m4a",
+              "duration": 2.57
+            }
+          ]
+        },
+        {
+          "tag": "to_news",
+          "files": [
+            {
+              "path": "to_news/to_news_01.m4a",
+              "duration": 4.06
+            },
+            {
+              "path": "to_news/to_news_02.m4a",
+              "duration": 3.54
+            },
+            {
+              "path": "to_news/to_news_03.m4a",
+              "duration": 2.55
+            }
+          ]
+        }
+      ],
+      "playlist": {
+        "firstFragment": {
+          "fragmentTag": "id"
+        },
+        "fragments": [
+          {
+            "tag": "id",
+            "src": {
+              "type": "group",
+              "groupTag": "id"
+            },
+            "nextFragment": [
+              {
+                "fragmentTag": "track"
+              }
+            ]
+          },
+          {
+            "tag": "track",
+            "src": {
+              "type": "group",
+              "groupTag": "track"
+            },
+            "nextFragment": [
+              {
+                "fragmentTag": "adverts",
+                "probability": 0.357
+              },
+              {
+                "fragmentTag": "monoSolo",
+                "probability": 0.286
+              },
+              {
+                "fragmentTag": "news",
+                "probability": 0.143
+              },
+              {
+                "fragmentTag": "track"
+              }
+            ],
+            "mixins": {
+              "pos": [
+                {
+                  "tag": "begin",
+                  "relativeOffset": 0.03
+                },
+                {
+                  "tag": "end",
+                  "relativeOffset": 0.97
+                }
+              ],
+              "mix": [
+                {
+                  "tag": "toNews",
+                  "src": {
+                    "type": "group",
+                    "groupTag": "to_news"
+                  },
+                  "condition": {
+                    "type": "nextFragment",
+                    "fragmentTag": "news"
+                  },
+                  "posVariant": [
+                    {
+                      "posTag": "end"
+                    }
+                  ]
+                },
+                {
+                  "tag": "toAdverts",
+                  "src": {
+                    "type": "group",
+                    "groupTag": "to_adverts"
+                  },
+                  "condition": {
+                    "type": "nextFragment",
+                    "fragmentTag": "adverts"
+                  },
+                  "posVariant": [
+                    {
+                      "posTag": "end"
+                    }
+                  ]
+                },
+                {
+                  "tag": "general",
+                  "src": {
+                    "type": "group",
+                    "groupTag": "general"
+                  },
+                  "condition": {
+                    "type": "random",
+                    "probability": 0.333
+                  },
+                  "posVariant": [
+                    {
+                      "posTag": "end"
+                    },
+                    {
+                      "posTag": "begin"
+                    }
+                  ]
+                },
+                {
+                  "tag": "intro",
+                  "src": {
+                    "type": "attach"
+                  },
+                  "condition": {
+                    "type": "random",
+                    "probability": 0.333
+                  },
+                  "posVariant": [
+                    {
+                      "posTag": "begin"
+                    },
+                    {
+                      "posTag": "end"
+                    }
+                  ]
+                },
+                {
+                  "tag": "morning",
+                  "src": {
+                    "type": "group",
+                    "groupTag": "time_morning"
+                  },
+                  "condition": {
+                    "type": "groupAnd",
+                    "condition": [
+                      {
+                        "type": "random",
+                        "probability": 0.333
+                      },
+                      {
+                        "type": "timeInterval",
+                        "from": "5:00",
+                        "to": "11:00"
+                      }
+                    ]
+                  },
+                  "posVariant": [
+                    {
+                      "posTag": "end"
+                    },
+                    {
+                      "posTag": "begin"
+                    }
+                  ]
+                },
+                {
+                  "tag": "evening",
+                  "src": {
+                    "type": "group",
+                    "groupTag": "time_evening"
+                  },
+                  "condition": {
+                    "type": "groupAnd",
+                    "condition": [
+                      {
+                        "type": "random",
+                        "probability": 0.333
+                      },
+                      {
+                        "type": "timeInterval",
+                        "from": "18:00",
+                        "to": "24:00"
+                      }
+                    ]
+                  },
+                  "posVariant": [
+                    {
+                      "posTag": "end"
+                    },
+                    {
+                      "posTag": "begin"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "tag": "monoSolo",
+            "src": {
+              "type": "group",
+              "groupTag": "mono_solo"
+            },
+            "nextFragment": [
+              {
+                "fragmentTag": "news",
+                "probability": 0.4
+              },
+              {
+                "fragmentTag": "track"
+              }
+            ]
+          },
+          {
+            "tag": "news",
+            "src": {
+              "type": "group",
+              "groupTag": "news"
+            },
+            "nextFragment": [
+              {
+                "fragmentTag": "id",
+                "probability": 0.667
+              },
+              {
+                "fragmentTag": "track"
+              }
+            ]
+          },
+          {
+            "tag": "adverts",
+            "src": {
+              "type": "group",
+              "groupTag": "adverts"
+            },
+            "nextFragment": [
+              {
+                "fragmentTag": "track"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tag": "radio_05_talk_01",
+      "info": {
+        "title": "WCTR: West Coast Talk Radio",
+        "genre": "Public Talk Radio",
+        "logo": "radio_05_talk_01.png"
+      },
+      "fileGroups": [
+        {
+          "tag": "track",
+          "files": [
+            {
+              "tag": "p1",
+              "path": "mono_chakra_attack_part_1.m4a",
+              "duration": 1818.17,
+              "audibleDuration": 1817.7
+            },
+            {
+              "tag": "p2",
+              "path": "mono_chakra_attack_part_2.m4a",
+              "duration": 1326.78
+            }
+          ]
+        },
+        {
+          "tag": "id",
+          "files": [
+            {
+              "path": "id/id_01.m4a",
+              "duration": 7.4,
+              "audibleDuration": 6.4626
+            },
+            {
+              "path": "id/id_02.m4a",
+              "duration": 6.42,
+              "audibleDuration": 5.9
+            },
+            {
+              "path": "id/id_03.m4a",
+              "duration": 6.19,
+              "audibleDuration": 5.4813
+            }
+          ]
+        }
+      ],
+      "playlist": {
+        "firstFragment": {
+          "fragmentTag": "id1"
+        },
+        "fragments": [
+          {
+            "tag": "id1",
+            "src": {
+              "type": "group",
+              "groupTag": "id"
+            },
+            "nextFragment": [
+              {
+                "fragmentTag": "part1"
+              }
+            ]
+          },
+          {
+            "tag": "part1",
+            "src": {
+              "type": "file",
+              "groupTag": "track",
+              "fileTag": "p1"
+            },
+            "nextFragment": [
+              {
+                "fragmentTag": "id2"
+              }
+            ]
+          },
+          {
+            "tag": "id2",
+            "src": {
+              "type": "group",
+              "groupTag": "id"
+            },
+            "nextFragment": [
+              {
+                "fragmentTag": "part2"
+              }
+            ]
+          },
+          {
+            "tag": "part2",
+            "src": {
+              "type": "file",
+              "groupTag": "track",
+              "fileTag": "p2"
+            },
+            "nextFragment": [
+              {
+                "fragmentTag": "id1"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
